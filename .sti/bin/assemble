@@ -1,0 +1,5 @@
+#!/bin/bash
+SOURCE_DIR=/tmp/src/
+DEPLOY_DIR=/opt/openshift
+cp $SOURCE_DIR/*.jar $DEPLOY_DIR/app.jar
+exit 0
